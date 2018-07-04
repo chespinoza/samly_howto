@@ -38,7 +38,7 @@ defmodule SamlyHowto.Mixfile do
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
-      {:samly, "~> 0.8"}
+      {:samly, git: "https://github.com/handnot2/samly.git", ref: "9e742d473f7dcc3b183b519695e2912891212a5b"}
     ]
-  end
+  end  
 end
